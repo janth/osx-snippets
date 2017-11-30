@@ -1,0 +1,2 @@
+sudo systemsetup -gettimezone
+Time Zone: Europe/Oslo

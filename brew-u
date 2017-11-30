@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+brew update && brew outdated && brew upgrade
+
+gcloud components update
+
+npm update
+
+# TODO:?
+# ( cd $HOME/git ; for repo in * ; do [[ -d ${repo} ]] && ( cd ${repo} && git pull ) ; done )

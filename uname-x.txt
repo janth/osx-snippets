@@ -1,0 +1,46 @@
+$ for i in a m n p r s v ; do echo $i ; uname -$i ; echo ; done
+a
+Darwin mame.home 17.2.0 Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64 x86_64
+
+m
+x86_64
+
+n
+mame.home
+
+p
+i386
+
+r
+17.2.0
+
+s
+Darwin
+
+v
+Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64
+
+
+-----
+
+$ /usr/sbin/system_profiler SPSoftwareDataType
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 10.13.1 (17B1003)
+      Kernel Version: Darwin 17.2.0
+      Boot Volume: Macintosh HD
+      Boot Mode: Normal
+      Computer Name: Jan’s MacBook Pro
+      User Name: Jan Thomas Moldung (janthl)
+      Secure Virtual Memory: Enabled
+      System Integrity Protection: Enabled
+      Time since boot: 16 days 21:58
+
+-----
+
+$ /usr/bin/sw_vers
+ProductName:	Mac OS X
+ProductVersion:	10.13.1
+BuildVersion:	17B1003 
